@@ -10,7 +10,7 @@ import palmerpenguins  # This package provides the Palmer Penguins dataset
 penguins_df = palmerpenguins.load_penguins()
 
 # added title to main page
-ui.page_opts(title="Adrian's Penguin Data", fillable=True)
+ui.page_opts(title="Kamalini's Penguin Data", fillable=True)
 
 # Use ui.input_selectize() to create a dropdown input to choose a column
 with ui.sidebar(open="open"):
