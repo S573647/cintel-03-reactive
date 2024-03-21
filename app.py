@@ -46,13 +46,6 @@ with ui.sidebar(open="open"):
     # Use ui.hr() to add a horizontal rule to the sidebar
     ui.hr()
 
-    # Use ui.a() to add a hyperlink to the sidebar
-    ui.a(
-        "Adrian's GitHub Repo",
-        href="https://github.com/adriacv17/cintel-02-data/blob/main/app.py",
-        target="_blank",
-    )
-
 # create a layout to include 2 cards with a data table and data grid
 with ui.layout_columns():
     with ui.card(full_screen=True):  # full_screen option to view expanded table/grid
