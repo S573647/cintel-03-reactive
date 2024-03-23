@@ -37,7 +37,7 @@ with ui.sidebar(open="open"):
     ui.hr()
 
     # Add a hyperlink to the sidebar
-    ui.a("Miller Repo", href="https://github.com/S573647/cintel-03-reactive", target="_blank")
+    ui.a("Kamalini Repo", href="https://github.com/S573647/cintel-03-reactive", target="_blank")
     
     # display data grid and data table
 with ui.layout_columns():        
